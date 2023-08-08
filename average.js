@@ -4,7 +4,7 @@ const arr = [5,1,2,3,4]
 let sum =0
 for (i=0; i < arr.length; i++){
     sum += arr[i]
-    console.log(sum)
 }
 let average = sum/arr.length
-console.log(average)
+console.log(arr);
+console.log(`average: ${average}`)
